@@ -411,5 +411,109 @@ blockquote{
 span i{
     color: #ED661F;
 }
+.footer{
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+}
+.keep-in-touch{
+  height: 40vh;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    gap: 30px;
+}
+.keep-in-touch h2{
+  color: white;
+    font-size: 30px;
+}
+.keep-in-touch p{
+  color: white;
+    font-size: 16px;
+}
+.form-input{
+  height: 40px;
+    width: 350px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+}
+.btn-submit{
+    width: 150px;
+    height: 40px;
+    background-color: #ED661F;
+    color: white;
+    border: none;
+}
 
+.bottom-footer{
+    width: 100%;
+    /* height: 50vh; */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer-bottom .brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    color: white;
+}
+
+.brand .icons{
+    margin: 20px 0 20px 0;
+}
+.company{
+    flex-grow: 2;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top:-80px;;
+
+}
+.company h2{
+    font-size: 22px;
+}
+.company ul{
+    margin-top: 10px;
+    list-style: none;
+}
+.company ul li{
+    padding: 5px;
+}
+.copy{
+  padding: 30px 0 30px 0;
+  font-weight: 400;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.brand{
+  padding-left: 100px;
+  margin-top:60px;
+}
+.app-store{
+  width: 100px;
+  color: black;
+  padding-top: 0;
+  margin: 0 10px 0 0;
+}
+.logo-images{
+  display: flex;
+  flex-direction: row;
+}
  
